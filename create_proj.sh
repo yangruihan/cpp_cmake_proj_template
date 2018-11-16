@@ -15,6 +15,7 @@ echo "----------------------------
 && rm main.cpp \
 && rm -rf .git \
 && git init \
+&& rm create_proj.sh \
 && echo "-----------------------------
 --- Finish Create Project ---
 -----------------------------" \
