@@ -21,6 +21,5 @@ echo "----------------------------
 && echo "-----------------------------
 --- Finish Create Project ---
 -----------------------------" \
-&& echo "\n\n" \
 && echo "--- [Git] init finish ---" \
 && echo "--- [CMake] Please replace CMakeLists.txt proj_name with your project name"
