@@ -15,8 +15,12 @@ echo "----------------------------
 && rm main.cpp \
 && rm -rf .git \
 && git init \
+&& rm README.md \
+&& touch README.md \
 && rm create_proj.sh \
 && echo "-----------------------------
 --- Finish Create Project ---
 -----------------------------" \
-&& echo "--- Please replace CMakeLists.txt proj_name with your project name"
+&& echo "\n\n" \
+&& echo "--- [Git] init finish ---" \
+&& echo "--- [CMake] Please replace CMakeLists.txt proj_name with your project name"

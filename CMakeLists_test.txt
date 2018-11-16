@@ -20,5 +20,4 @@ add_executable(
 
 target_link_libraries(
     ${PROJ_NAME}_test
-    pthread
 )
