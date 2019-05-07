@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-bash build_debug.sh \
+bash tools/build_debug.sh \
 && echo \
 "
 
@@ -11,7 +11,7 @@ bash build_debug.sh \
 
 
 " \
-&& bash build_release.sh \
+&& bash tools/build_release.sh \
 && echo \
 "
 
