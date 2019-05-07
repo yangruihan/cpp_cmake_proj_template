@@ -14,23 +14,23 @@ cd your_proj_path
 
 ### Build Docker
 ```
-./docker_build.sh
+./tools/docker_build.sh
 ```
 
 ### Run Docker
 ```
-./docker_run.sh
+./tools/docker_run.sh
 ```
 
 ### Build Project
 ```
-./build_all.sh  # build both debug and release version
-./build_debug.sh
-./build_release.sh
+./tools/build_all.sh  # build both debug and release version
+./tools/build_debug.sh
+./tools/build_release.sh
 ```
 
 ### Run
 ```
-./bin/Release/your_proj_name
+./bin/[Debug|Release]/your_proj_name
 ### You will see 'hello world'
 ```
