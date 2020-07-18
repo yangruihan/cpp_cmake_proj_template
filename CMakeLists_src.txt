@@ -8,7 +8,15 @@ file(GLOB HEADERS "${PROJECT_SOURCE_DIR}/include/*.h")
 source_group("Headers" FILES ${HEADERS_PLUS})
 source_group("Headers" FILES ${HEADERS})
 
-set(EXECUTABLE_OUTPUT_PATH "${PROJ_SOURCE_ROOT}/bin/${PROJ_NAME}")
+if (WIN32)
+    set(EXECUTABLE_OUTPUT_PATH "${PROJ_SOURCE_ROOT}/bin/${PROJ_NAME}")
+else (WIN32)
+    if (CMAKE_BUILD_TYPE MATCHES "Debug")
+        set(EXECUTABLE_OUTPUT_PATH "${PROJ_SOURCE_ROOT}/bin/Debug")
+    else (CMAKE_BUILD_TYPE MATCHES "Debug")
+        set(EXECUTABLE_OUTPUT_PATH "${PROJ_SOURCE_ROOT}/bin/Release")
+    endif (CMAKE_BUILD_TYPE MATCHES "Debug")
+endif (WIN32)
 
 add_executable(
     ${PROJ_NAME}
