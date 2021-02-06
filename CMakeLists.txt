@@ -5,7 +5,7 @@ set(PROJ_NAME proj_name)
 project(${PROJ_NAME})
 
 set(CMAKE_C_STANDARD 99)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 option(DEBUG "Debug Version" on)
 
