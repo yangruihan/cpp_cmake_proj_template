@@ -1,4 +1,4 @@
-# Cpp Project Template
+# Cpp CMake Project Template
 This repository is for auto creating cpp startup project with docker and cmake.
 
 ## How to
