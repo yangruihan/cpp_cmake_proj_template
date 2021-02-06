@@ -6,6 +6,6 @@ if not exist "build/Win" (
     md "build/Win"
 )
 
-cd build/Win/ && call cmake ../../
+cd build/Win/ && call cmake ../../ && cd ../../
 
 PAUSE
