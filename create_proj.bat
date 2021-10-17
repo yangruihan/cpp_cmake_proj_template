@@ -9,11 +9,11 @@ mkdir libs
 
 copy NUL README.md
 
-move CMakeLists_src.txt src/CMakeLists.txt
-move CMakeLists_test.txt test/CMakeLists.txt
+move CMakeLists_src.txt src\CMakeLists.txt
+move CMakeLists_test.txt test\CMakeLists.txt
 
-copy main.cpp src/main.cpp
-copy main.cpp test/main.cpp
+copy main.cpp src\main.cpp
+copy main.cpp test\main.cpp
 
 del main.cpp
 rmdir /s /q .git
