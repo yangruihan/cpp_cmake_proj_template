@@ -18,6 +18,7 @@ echo "----------------------------
 && rm README.md \
 && touch README.md \
 && rm create_proj.sh \
+&& rm create_proj.bat \
 && echo "-----------------------------
 --- Finish Create Project ---
 -----------------------------" \
